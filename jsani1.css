@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.mainnav{
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 1fr 1fr ;
+    gap: 50px;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    background-color: rgb(78, 74, 74);
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.home3{
+    background-color: rgb(218, 199, 218);
+    height: 42px;
+    width: 160px;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-top: 5px;
+    color: black;
+
+}
+.h3{
+    color: white;
+    font-size: 45px;
+}
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:#ba7453;
+    z-index:-1;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.hero{
+    background-color: aquamarine;
+    height: 80%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+.headline{
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    font-size: 33px;
+    color: rgb(28, 28, 29);
+    z-index: 56;
+}
+.hero::after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.1;
+}
+.btn{
+    position: relative;
+    top: 0%;
+    left: 45%;
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    z-index: 156;
+}
